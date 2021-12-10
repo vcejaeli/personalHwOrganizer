@@ -1,0 +1,30 @@
+.home {
+    width: 100%;
+    min-height: calc(100vh);
+    // background: darkseagreen;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+    &__main {
+        width: 95%;
+        min-height: calc(90vh);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: rgba(255, 105, 180, 0.493);
+    }
+
+    &__card {
+        height: 500px;
+        width: 350px;
+        background: peachpuff;
+    }
+}
+
+
